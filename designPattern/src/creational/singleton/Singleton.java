@@ -2,7 +2,7 @@ package creational.singleton;
 
 public class Singleton {
 
-	//Agar
+	//Eager
 	//	private static Singleton instance = new Singleton();
 
 	//lazy
