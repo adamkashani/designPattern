@@ -20,7 +20,7 @@ public class Prototyp implements Cloneable {
 	protected Prototyp  clone() throws CloneNotSupportedException {
 		// TODO Auto-generated method stub
 		Prototyp copy = (Prototyp) super.clone();
-		copy.strings = new ArrayList<>(this.strings);
+		copy.setStrings(new ArrayList<>(this.strings));  
 		return copy;
 	}
 	

@@ -15,8 +15,4 @@ public enum EnumSingleton {
 	public String getName() {
 		return name;
 	}
-
-
-
-
 }
